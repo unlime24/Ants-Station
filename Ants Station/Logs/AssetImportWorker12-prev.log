@@ -1,0 +1,589 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16281 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/Users/Unlime/Documents/GitHub/Ants-Station/Ants Station
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+64707
+Successfully changed project path to: C:/Users/Unlime/Documents/GitHub/Ants-Station/Ants Station
+C:/Users/Unlime/Documents/GitHub/Ants-Station/Ants Station
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6640] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 1740479825 [EditorId] 1740479825 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2CE7J8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6640] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 1740479825 [EditorId] 1740479825 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2CE7J8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 74.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Unlime/Documents/GitHub/Ants-Station/Ants Station/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 5GB (ID=0x1c04)
+    Vendor:   NVIDIA
+    VRAM:     5022 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005700 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 172 ms
+Refreshing native plugins compatible for Editor in 77.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (772ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (451ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (251ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005242 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 77.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Could not allocate 9400 bytes
+Crash!!!
+  ERROR: Error while initializing dbghelp.dll, GetLastError: 'Операция успешно завершена.' (Address: 0000000000000000)
+
+========== OUTPUTTING STACK TRACE ==================
+
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Mono;.;C:\Users\Unlime\Documents\GitHub\Ants-Station\Ants Station;C:\Users\Unlime\Documents\GitHub\Ants-Station\Ants Station\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor;C:\Windows;C:\Windows\system32;', symOptions: 534, UserName: 'Unlime'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe:Unity.exe (00007FF6FC890000), size: 74145792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2021.3.33.23082
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFE18A10000), size: 2064384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFE17FB0000), size: 774144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFE16410000), size: 3104768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFE16840000), size: 1429504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFE16710000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\USER32.dll:USER32.dll (00007FFE173D0000), size: 1695744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\win32u.dll:win32u.dll (00007FFE16810000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFE17150000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFDA4DB0000), size: 10067968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.3.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFE0B210000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FFE03360000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.0.0
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFE160D0000), size: 1142784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFE16370000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\etccompress.dll:etccompress.dll (00007FFDA30B0000), size: 5066752 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFE17570000), size: 733184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3930
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFDC9290000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFE17DE0000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.3636
+C:\Windows\System32\sechost.dll:sechost.dll (00007FFE17F10000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3930
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFDCE9A0000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFE17AA0000), size: 1204224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3758
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FFD9E810000), size: 48848896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.4.2.0
+C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FFE16340000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFE180D0000), size: 7622656 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFE17340000), size: 438272 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFE16A60000), size: 348160 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\ole32.dll:ole32.dll (00007FFE16EF0000), size: 1224704 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFDEA0F0000), size: 1187840 (result: 8), SymType: '-unknown-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFE11860000), size: 45056 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 1.0.1812.6001
+C:\Windows\System32\combase.dll:combase.dll (00007FFE16B90000), size: 3489792 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\IMM32.dll:IMM32.dll (00007FFE17020000), size: 204800 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFE17630000), size: 4644864 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFE161F0000), size: 319488 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFE16AC0000), size: 839680 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FFE162D0000), size: 421888 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\tbb12.dll:tbb12.dll (00007FFDEA080000), size: 434176 (result: 8), SymType: '-unknown-', PDB: ''
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFDFA190000), size: 581632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.36.32532.0
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFDF9E10000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.36.32532.0
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFDE9D90000), size: 1200128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFE03330000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFE15420000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFE0ECA0000), size: 1089536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFE048C0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFE14460000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFE138E0000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FFDC2820000), size: 2961408 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.7.0.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFDA4510000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFE10370000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFE11850000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFDFA120000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.36.32532.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\tbbmalloc.dll:tbbmalloc.dll (00007FFDF3710000), size: 282624 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\RadeonML.dll:RadeonML.dll (00007FFE110E0000), size: 94208 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 0.9.11.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFDE9F60000), size: 499712 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 23.0.0.0
+C:\Windows\SYSTEM32\Secur32.dll:Secur32.dll (00007FFDFC200000), size: 49152 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFE15F80000), size: 204800 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\OpenRL.dll:OpenRL.dll (000001628CDD0000), size: 12779520 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 1.5.0.2907
+C:\Windows\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000051A20000), size: 622592 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.40219.325
+C:\Windows\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000051940000), size: 860160 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.40219.325
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\embree.dll:embree.dll (00007FFD9D820000), size: 16711680 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 2.14.0.0
+C:\Windows\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFE15730000), size: 434176 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\tbb.dll:tbb.dll (00007FFDE9A60000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\Windows\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFDE9160000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+C:\Windows\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFDD8E80000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (000001628DA20000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\Windows\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFE15BC0000), size: 73728 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Common Files\Crypto Pro\AppCompat\cpcrypt.dll:cpcrypt.dll (00007FFE15AA0000), size: 135168 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 5.0.16653.0
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFE13AC0000), size: 73728 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3758
+C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00000162AF790000), size: 532480 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFE135F0000), size: 647168 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\shcore.dll:shcore.dll (00007FFE17180000), size: 708608 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFE13CC0000), size: 7979008 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\SYSTEM32\Wldp.dll:Wldp.dll (00007FFE15A00000), size: 188416 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFE16000000), size: 151552 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\system32\IconCodecService.dll:IconCodecService.dll (00007FFE11870000), size: 36864 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.1
+C:\Windows\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFE0F740000), size: 1785856 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFE17230000), size: 692224 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\Windows\System32\netprofm.dll:netprofm.dll (00007FFE11660000), size: 258048 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\npmproxy.dll:npmproxy.dll (00007FFE0E8F0000), size: 65536 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\NSI.dll:NSI.dll (00007FFE189C0000), size: 32768 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFE0FB80000), size: 94208 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFE0FB60000), size: 118784 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFE15460000), size: 831488 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.4046
+C:\Windows\system32\napinsp.dll:napinsp.dll (00007FFDF91D0000), size: 94208 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFDF9110000), size: 110592 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\system32\wshbth.dll:wshbth.dll (00007FFDF6BF0000), size: 86016 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\system32\NLAapi.dll:NLAapi.dll (00007FFE116A0000), size: 118784 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\winrnr.dll:winrnr.dll (00007FFDF6B30000), size: 73728 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFE00D30000), size: 524288 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3758
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFE00ED0000), size: 40960 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFD9B760000), size: 1536000 (result: 8), SymType: '-unknown-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFD9B6D0000), size: 561152 (result: 8), SymType: '-unknown-', PDB: ''
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFE118E0000), size: 2502656 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFE144A0000), size: 995328 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_7e5fd280efaa5445\nvldumdx.dll:nvldumdx.dll (00007FFE0C340000), size: 770048 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 31.0.15.3623
+C:\Windows\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFE10A10000), size: 200704 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\drvstore.dll:drvstore.dll (00007FFE10720000), size: 1343488 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\devobj.dll:devobj.dll (00007FFE15D90000), size: 208896 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFE15970000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FFE173B0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFE15950000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Common Files\Crypto Pro\AppCompat\cpadvai.dll:cpadvai.dll (00007FFE15930000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.0.16570.0
+C:\Program Files\Crypto Pro\CSP\cpcsp.dll:cpcsp.dll (00007FFE14DB0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.0.14917.0
+C:\Program Files\Crypto Pro\CSP\cpcspi.dll:cpcspi.dll (00007FFE14B90000), size: 2187264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.0.18573.0
+C:\Program Files\Crypto Pro\CSP\cpsuprt.dll:cpsuprt.dll (00007FFE14AF0000), size: 634880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.0.15922.0
+C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_7e5fd280efaa5445\nvwgf2umx.dll:nvwgf2umx.dll (00007FFE04B70000), size: 99463168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.15.3623
+C:\Windows\system32\nvspcap64.dll:nvspcap64.dll (00007FFDC7DB0000), size: 2953216 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 3.27.0.112
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFE15180000), size: 208896 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_7e5fd280efaa5445\Display.NvContainer\MessageBus.dll:MessageBus.dll (00007FFDF96D0000), size: 7565312 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 1.22.2758.1620
+C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FFE0C890000), size: 241664 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFE0FBC0000), size: 69632 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFE0C6B0000), size: 589824 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFE0AA50000), size: 81920 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (00007FFE0BD60000), size: 1093632 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\amsi.dll:amsi.dll (00007FFDF4DC0000), size: 126976 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FFE15FC0000), size: 188416 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24020.7-0\MpOav.dll:MpOav.dll (00007FFDF8F40000), size: 528384 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 4.18.24020.7
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\cudart64_90.dll:cudart64_90.dll (00007FFD9B660000), size: 397312 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 6.14.11.9000
+C:\Windows\SYSTEM32\opencl.dll:opencl.dll (00007FFD9B4F0000), size: 1490944 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 3.0.3.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\radeonrays.dll:radeonrays.dll (00007FFD9B460000), size: 557056 (result: 8), SymType: '-unknown-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFD9AA00000), size: 10829824 (result: 8), SymType: '-unknown-', PDB: ''
+C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFE11560000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.3636
+C:\Windows\SYSTEM32\edputil.dll:edputil.dll (00007FFDFBC40000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFDF42E0000), size: 1335296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFE02AE0000), size: 2015232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.3996
+C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFE04600000), size: 2867200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.3996
+C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFE02AB0000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFE15530000), size: 49152 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\virtdisk.dll:virtdisk.dll (00007FFDEC5C0000), size: 77824 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\FLTLIB.DLL:FLTLIB.DLL (00007FFDF46A0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\wintypes.dll:wintypes.dll (00007FFE126C0000), size: 1396736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\appresolver.dll:appresolver.dll (00007FFE010A0000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\SLC.dll:SLC.dll (00007FFE14720000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\Bcp47Langs.dll:Bcp47Langs.dll (00007FFE0FBE0000), size: 372736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\sppc.dll:sppc.dll (00007FFE146F0000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\OneCoreCommonProxyStub.dll:OneCoreCommonProxyStub.dll (00007FFDFF280000), size: 520192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3758
+C:\Windows\System32\OneCoreUAPCommonProxyStub.dll:OneCoreUAPCommonProxyStub.dll (00007FFE0C9D0000), size: 8192000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFE02CD0000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Mono;.;C:\Users\Unlime\Documents\GitHub\Ants-Station\Ants Station;C:\Users\Unlime\Documents\GitHub\Ants-Station\Ants Station\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor;C:\Windows;C:\Windows\system32;', symOptions: 534, UserName: 'Unlime'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe:Unity.exe (00007FF6FC890000), size: 74145792 (result: -529697949), SymType: '-deferred-', PDB: '', fileVersion: 2021.3.33.23082
+  ERROR: LoadModule, GetLastError: 'Unknown error [-529697949]' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFE18A10000), size: 2064384 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 10.0.19041.3996
+C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFE17FB0000), size: 774144 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\KERNEL32.DLL', fileVersion: 10.0.19041.3636
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFE16410000), size: 3104768 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\KERNELBASE.dll', fileVersion: 10.0.19041.3996
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFE16840000), size: 1429504 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\CRYPT32.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFE16710000), size: 1048576 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\ucrtbase.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\USER32.dll:USER32.dll (00007FFE173D0000), size: 1695744 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\USER32.dll', fileVersion: 10.0.19041.3996
+C:\Windows\System32\win32u.dll:win32u.dll (00007FFE16810000), size: 139264 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\win32u.dll', fileVersion: 10.0.19041.3996
+C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFE17150000), size: 176128 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\GDI32.dll', fileVersion: 10.0.19041.3996
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFDA4DB0000), size: 10067968 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\libfbxsdk.dll', fileVersion: 2020.3.3.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFE0B210000), size: 180224 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\s3tcompress.dll'
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FFE03360000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\optix.6.0.0.dll', fileVersion: 6.0.0.0
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFE160D0000), size: 1142784 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\gdi32full.dll', fileVersion: 10.0.19041.3996
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFE16370000), size: 643072 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\msvcp_win.dll', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\etccompress.dll:etccompress.dll (00007FFDA30B0000), size: 5066752 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\etccompress.dll'
+C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFE17570000), size: 733184 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\ADVAPI32.dll', fileVersion: 10.0.19041.3930
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFDC9290000), size: 1826816 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\ispc_texcomp.dll'
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFE17DE0000), size: 647168 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\msvcrt.dll', fileVersion: 7.0.19041.3636
+C:\Windows\System32\sechost.dll:sechost.dll (00007FFE17F10000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\sechost.dll', fileVersion: 10.0.19041.3930
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFDCE9A0000), size: 1433600 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\compress_bc7e.dll'
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFE17AA0000), size: 1204224 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\RPCRT4.dll', fileVersion: 10.0.19041.3758
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\FreeImage.dll', fileVersion: 3.18.0.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FFD9E810000), size: 48848896 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\OpenImageDenoise.dll', fileVersion: 1.4.2.0
+C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FFE16340000), size: 159744 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\bcrypt.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFE180D0000), size: 7622656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFE17340000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFE16A60000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\ole32.dll:ole32.dll (00007FFE16EF0000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFDEA0F0000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFE11860000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
+C:\Windows\System32\combase.dll:combase.dll (00007FFE16B90000), size: 3489792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\IMM32.dll:IMM32.dll (00007FFE17020000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFE17630000), size: 4644864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFE161F0000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFE16AC0000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FFE162D0000), size: 421888 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\tbb12.dll:tbb12.dll (00007FFDEA080000), size: 434176 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFDFA190000), size: 581632 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\MSVCP140.dll', fileVersion: 14.36.32532.0
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFDF9E10000), size: 110592 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.36.32532.0
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFDE9D90000), size: 1200128 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFE03330000), size: 180224 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFE15420000), size: 241664 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFE0ECA0000), size: 1089536 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFE048C0000), size: 159744 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFE14460000), size: 53248 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFE138E0000), size: 192512 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\dwmapi.dll', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FFDC2820000), size: 2961408 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\RadeonImageFilters.dll', fileVersion: 1.7.0.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFDA4510000), size: 8990720 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\SketchUpAPI.dll', fileVersion: 23.0.0.0
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFE10370000), size: 40960 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFE11850000), size: 36864 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\WSOCK32.dll', fileVersion: 10.0.19041.1
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFDFA120000), size: 49152 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.36.32532.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\tbbmalloc.dll:tbbmalloc.dll (00007FFDF3710000), size: 282624 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\tbbmalloc.dll'
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\RadeonML.dll:RadeonML.dll (00007FFE110E0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 0.9.11.0
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFDE9F60000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\Windows\SYSTEM32\Secur32.dll:Secur32.dll (00007FFDFC200000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFE15F80000), size: 204800 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\OpenRL.dll:OpenRL.dll (000001628CDD0000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\Windows\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000051A20000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\Windows\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000051940000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\embree.dll:embree.dll (00007FFD9D820000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\Windows\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFE15730000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\tbb.dll:tbb.dll (00007FFDE9A60000), size: 413696 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\tbb.dll', fileVersion: 2017.0.2016.1004
+C:\Windows\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFDE9160000), size: 679936 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\MSVCP120.dll', fileVersion: 12.0.40664.0
+: (00007FFDD8E80000), size: 978944 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\MSVCR120.dll'
+: (000001628DA20000), size: 61440 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\OpenRL_pthread.dll'
+: (00007FFE15BC0000), size: 73728 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+: (00007FFE15AA0000), size: 135168 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+: (00007FFE13AC0000), size: 73728 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+: (00000162AF790000), size: 532480 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+: (00007FFE135F0000), size: 647168 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+: (00007FFE17180000), size: 708608 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+:windows.storage.dll (00007FFE13CC0000), size: 7979008 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\Wldp.dll:Wldp.dll (00007FFE15A00000), size: 188416 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFE16000000), size: 151552 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\system32\IconCodecService.dll:IconCodecService.dll (00007FFE11870000), size: 36864 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.1
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFE0F740000), size: 1785856 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFE17230000), size: 692224 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 2001.12.10941.16384
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\System32\netprofm.dll:netprofm.dll (00007FFE11660000), size: 258048 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\System32\npmproxy.dll:npmproxy.dll (00007FFE0E8F0000), size: 65536 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\System32\NSI.dll:NSI.dll (00007FFE189C0000), size: 32768 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFE0FB80000), size: 94208 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFE0FB60000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFE15460000), size: 831488 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.4046
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\system32\napinsp.dll:napinsp.dll (00007FFDF91D0000), size: 94208 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFDF9110000), size: 110592 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\system32\wshbth.dll:wshbth.dll (00007FFDF6BF0000), size: 86016 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\system32\NLAapi.dll:NLAapi.dll (00007FFE116A0000), size: 118784 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\System32\winrnr.dll:winrnr.dll (00007FFDF6B30000), size: 73728 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFE00D30000), size: 524288 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3758
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFE00ED0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFD9B760000), size: 1536000 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFD9B6D0000), size: 561152 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFE118E0000), size: 2502656 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFE144A0000), size: 995328 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_7e5fd280efaa5445\nvldumdx.dll:nvldumdx.dll (00007FFE0C340000), size: 770048 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 31.0.15.3623
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFE10A10000), size: 200704 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\drvstore.dll:drvstore.dll (00007FFE10720000), size: 1343488 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\devobj.dll:devobj.dll (00007FFE15D90000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Windows\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFE15970000), size: 49152 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\cryptbase.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FFE173B0000), size: 118784 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\imagehlp.dll', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFE15950000), size: 98304 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\CRYPTSP.dll', fileVersion: 10.0.19041.3636
+C:\Program Files\Common Files\Crypto Pro\AppCompat\cpadvai.dll:cpadvai.dll (00007FFE15930000), size: 94208 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Common Files\Crypto Pro\AppCompat\cpadvai.dll', fileVersion: 5.0.16570.0
+C:\Program Files\Crypto Pro\CSP\cpcsp.dll:cpcsp.dll (00007FFE14DB0000), size: 32768 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Crypto Pro\CSP\cpcsp.dll', fileVersion: 5.0.14917.0
+C:\Program Files\Crypto Pro\CSP\cpcspi.dll:cpcspi.dll (00007FFE14B90000), size: 2187264 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Crypto Pro\CSP\cpcspi.dll', fileVersion: 5.0.18573.0
+C:\Program Files\Crypto Pro\CSP\cpsuprt.dll:cpsuprt.dll (00007FFE14AF0000), size: 634880 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Crypto Pro\CSP\cpsuprt.dll', fileVersion: 5.0.15922.0
+C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_7e5fd280efaa5445\nvwgf2umx.dll:nvwgf2umx.dll (00007FFE04B70000), size: 99463168 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_7e5fd280efaa5445\nvwgf2umx.dll', fileVersion: 31.0.15.3623
+C:\Windows\system32\nvspcap64.dll:nvspcap64.dll (00007FFDC7DB0000), size: 2953216 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 3.27.0.112
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFE15180000), size: 208896 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_7e5fd280efaa5445\Display.NvContainer\MessageBus.dll:MessageBus.dll (00007FFDF96D0000), size: 7565312 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 1.22.2758.1620
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FFE0C890000), size: 241664 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFE0FBC0000), size: 69632 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFE0C6B0000), size: 589824 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFE0AA50000), size: 81920 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3996
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (00007FFE0BD60000), size: 1093632 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\amsi.dll:amsi.dll (00007FFDF4DC0000), size: 126976 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FFE15FC0000), size: 188416 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24020.7-0\MpOav.dll:MpOav.dll (00007FFDF8F40000), size: 528384 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 4.18.24020.7
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\cudart64_90.dll:cudart64_90.dll (00007FFD9B660000), size: 397312 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 6.14.11.9000
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\opencl.dll:opencl.dll (00007FFD9B4F0000), size: 1490944 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 3.0.3.0
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\radeonrays.dll:radeonrays.dll (00007FFD9B460000), size: 557056 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFD9AA00000), size: 10829824 (result: 8), SymType: '-unknown-', PDB: ''
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFE11560000), size: 1007616 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\PROPSYS.dll', fileVersion: 7.0.19041.3636
+C:\Windows\SYSTEM32\edputil.dll:edputil.dll (00007FFDFBC40000), size: 147456 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\edputil.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFDF42E0000), size: 1335296 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\Windows.StateRepositoryPS.dll', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFE02AE0000), size: 2015232 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\urlmon.dll', fileVersion: 11.0.19041.3996
+C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFE04600000), size: 2867200 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\iertutil.dll', fileVersion: 11.0.19041.3996
+C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFE02AB0000), size: 163840 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\srvcli.dll', fileVersion: 10.0.19041.3636
+C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFE15530000), size: 49152 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\virtdisk.dll:virtdisk.dll (00007FFDEC5C0000), size: 77824 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+C:\Windows\SYSTEM32\FLTLIB.DLL:FLTLIB.DLL (00007FFDF46A0000), size: 45056 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\FLTLIB.DLL', fileVersion: 10.0.19041.3636
+C:\Windows\System32\wintypes.dll:wintypes.dll (00007FFE126C0000), size: 1396736 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\wintypes.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\appresolver.dll:appresolver.dll (00007FFE010A0000), size: 589824 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\appresolver.dll', fileVersion: 10.0.19041.3996
+C:\Windows\System32\SLC.dll:SLC.dll (00007FFE14720000), size: 167936 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\SLC.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\Bcp47Langs.dll:Bcp47Langs.dll (00007FFE0FBE0000), size: 372736 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\Bcp47Langs.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\sppc.dll:sppc.dll (00007FFE146F0000), size: 151552 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\sppc.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\OneCoreCommonProxyStub.dll:OneCoreCommonProxyStub.dll (00007FFDFF280000), size: 520192 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\OneCoreCommonProxyStub.dll', fileVersion: 10.0.19041.3758
+C:\Windows\System32\OneCoreUAPCommonProxyStub.dll:OneCoreUAPCommonProxyStub.dll (00007FFE0C9D0000), size: 8192000 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\OneCoreUAPCommonProxyStub.dll', fileVersion: 10.0.19041.3996
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFE02CD0000), size: 1982464 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\psapi.dll:psapi.dll (00007FFE17060000), size: 32768 (result: 8), SymType: '-unknown-', PDB: '', fileVersion: 10.0.19041.3636
+  ERROR: LoadModule, GetLastError: 'Недостаточно ресурсов памяти для обработки этой команды.' (Address: 0000000000000000)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Попытка обращения к неверному адресу.' (Address: 00007FFE1643CF19)
+0x00007FFE1643CF19 (KERNELBASE) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AA70C0C)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AA70C0C)
+0x00007FFD9AA70C0C ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AA5C822)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AA5C822)
+0x00007FFD9AA5C822 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AA5C888)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AA5C888)
+0x00007FFD9AA5C888 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AD1745B)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AD1745B)
+0x00007FFD9AD1745B ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AC8C5E9)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AC8C5E9)
+0x00007FFD9AC8C5E9 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AC8D017)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AC8D017)
+0x00007FFD9AC8D017 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AC941EC)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AC941EC)
+0x00007FFD9AC941EC ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AD8E7E8)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AD8E7E8)
+0x00007FFD9AD8E7E8 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AD8F268)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AD8F268)
+0x00007FFD9AD8F268 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00000164B56C03A6)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00000164B56C03A6)
+0x00000164B56C03A6 ((<unknown>)) (function-name not available)
+0x00000164C21D2DFB (Mono JIT Code) System.Numerics.Vector`1<uint16>:.cctor ()
+0x00000164C21D2F65 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AC965FE)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AC965FE)
+0x00007FFD9AC965FE ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9ABCCD84)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9ABCCD84)
+0x00007FFD9ABCCD84 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9ABC7B29)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9ABC7B29)
+0x00007FFD9ABC7B29 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9ACAEF87)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9ACAEF87)
+0x00007FFD9ACAEF87 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9ACC7181)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9ACC7181)
+0x00007FFD9ACC7181 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9ACB1DC6)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9ACB1DC6)
+0x00007FFD9ACB1DC6 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9ACC725F)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9ACC725F)
+0x00007FFD9ACC725F ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AC8B4A0)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AC8B4A0)
+0x00007FFD9AC8B4A0 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AC8D017)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AC8D017)
+0x00007FFD9AC8D017 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AC941EC)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AC941EC)
+0x00007FFD9AC941EC ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AD8E7E8)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AD8E7E8)
+0x00007FFD9AD8E7E8 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AD8F268)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AD8F268)
+0x00007FFD9AD8F268 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00000164B56C03A6)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00000164B56C03A6)
+0x00000164B56C03A6 ((<unknown>)) (function-name not available)
+0x00000164C21D2D2B (Mono JIT Code) string:LastIndexOf (char)
+0x00000164C21D2C8B (Mono JIT Code) System.IO.Path:findExtension (string)
+0x00000164C21D2BA3 (Mono JIT Code) System.IO.Path:GetExtension (string)
+0x00000164C21D2B1B (Mono JIT Code) UnityEditor.Scripting.ScriptCompilation.AssetPath:GetExtension (string)
+0x00000164C21D2A43 (Mono JIT Code) UnityEditor.Scripting.ScriptCompilation.AssetPath:GetAssemblyNameWithoutExtension (string)
+0x00000164C21D28FB (Mono JIT Code) UnityEditor.Scripting.ScriptCompilation.UnityCodeGenHelpers:IsCodeGen (string)
+0x00000164C21D275B (Mono JIT Code) UnityEditor.Scripting.ScriptCompilation.CustomScriptAssemblyData:ValidateFields ()
+0x00000164C21D18E3 (Mono JIT Code) UnityEditor.Scripting.ScriptCompilation.CustomScriptAssemblyData:FromJson (string)
+0x00000164C21D1793 (Mono JIT Code) UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:LoadCustomScriptAssemblyFromJson (string,string,string)
+0x00000164C21D0683 (Mono JIT Code) UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+0x00000164C219FDCE (Mono JIT Code) UnityEditor.Scripting.ScriptCompilation.EditorCompilation:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+0x00000164C21AFEE3 (Mono JIT Code) UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyJsonContents (string[],string[],string[])
+0x00000164C219FCC0 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object_object_object (object,intptr,intptr,intptr)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9AC965FE)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9AC965FE)
+0x00007FFD9AC965FE ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9ABCCD84)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9ABCCD84)
+0x00007FFD9ABCCD84 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FFD9ABCCEFC)
+  ERROR: SymGetModuleInfo64, GetLastError: 'Произошел сбой в программе инициализации библиотеки динамической компоновки (DLL).' (Address: 00007FFD9ABCCEFC)
+0x00007FFD9ABCCEFC ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Unknown error [-529697949]' (Address: 00007FF6FD7BF9E4)
+0x00007FF6FD7BF9E4 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Unknown error [-529697949]' (Address: 00007FF6FD79F324)
+0x00007FF6FD79F324 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Unknown error [-529697949]' (Address: 00007FF6FD799F25)
+0x00007FF6FD799F25 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FD8DE21D)
+0x00007FF6FD8DE21D (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FE6E6852)
+0x00007FF6FE6E6852 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FE6E17E5)
+0x00007FF6FE6E17E5 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FCB0BD59)
+0x00007FF6FCB0BD59 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FD794102)
+0x00007FF6FD794102 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FD789C5D)
+0x00007FF6FD789C5D (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FD7917E8)
+0x00007FF6FD7917E8 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FE6E2EF2)
+0x00007FF6FE6E2EF2 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FE6E3624)
+0x00007FF6FE6E3624 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FE3E5A63)
+0x00007FF6FE3E5A63 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FE8344C8)
+0x00007FF6FE8344C8 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Не найден указанный модуль.' (Address: 00007FF6FFC1546E)
+0x00007FF6FFC1546E (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Попытка обращения к неверному адресу.' (Address: 00007FFE17FC7344)
+0x00007FFE17FC7344 (KERNEL32) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Попытка обращения к неверному адресу.' (Address: 00007FFE18A626B1)
+0x00007FFE18A626B1 (ntdll) (function-name not available)
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/Unlime/AppData/Local/Temp/Unity/Editor/Crashes

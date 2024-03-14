@@ -7,6 +7,10 @@ public class Ant : MonoBehaviour
     [SerializeField] private AntStateMachine _stateMachine;
     [Space] [SerializeField] private State _chillState;
     [SerializeField] private State _mineState;
+
+    [SerializeField] private Transform _resourcePoint;
+
+    public Transform ResourcePoint => _resourcePoint;
     
     
 

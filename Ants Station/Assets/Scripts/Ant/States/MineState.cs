@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +7,12 @@ public class MineState : State
 {
     public override void Enter()
     {
-        Debug.LogError("Муравей начал собирать ресурсы!");
+        FindResources();
+    }
+
+    private void FindResources()
+    {
+        throw new NotImplementedException();
     }
 
     public override void UpdateState()
