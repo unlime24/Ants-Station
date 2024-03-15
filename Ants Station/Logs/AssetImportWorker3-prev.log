@@ -15,31 +15,116 @@ C:/Users/Unlime/Documents/GitHub/Ants-Station/Ants Station
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-64707
+53718
 Successfully changed project path to: C:/Users/Unlime/Documents/GitHub/Ants-Station/Ants Station
 C:/Users/Unlime/Documents/GitHub/Ants-Station/Ants Station
-received signal from system: SIGSEGV
-Obtained 22 stack frames
-0x00007ff6fd89c89d (Unity) 
-0x00007ff6fd8a3459 (Unity) 
-0x00007ff6fe829f73 (Unity) 
-0x00007ff6fd8a2496 (Unity) 
-0x00007ff6fd89becc (Unity) 
-0x00007ff6ffc6b1ce (Unity) 
-0x00007ff6ffd2b2f8 (Unity) 
-0x00007ff6ffc37b00 (Unity) 
-0x00007ffe18ab23af (ntdll) _chkstk
-0x00007ffe18a614b4 (ntdll) RtlRaiseException
-0x00007ffe18ab0ebe (ntdll) KiUserExceptionDispatcher
-0x00007ff6fd10c4aa (Unity) 
-0x00007ff6fd1073f0 (Unity) 
-0x00007ff6fd10629b (Unity) 
-0x00007ff6fd112eff (Unity) 
-0x00007ff6fd10aa7a (Unity) 
-0x00007ff6fd10c706 (Unity) 
-0x00007ff6fe3e3e63 (Unity) Application::InitializeProject
-0x00007ff6fe8344c8 (Unity) WinMain
-0x00007ff6ffc1546e (Unity) __scrt_common_main_seh
-0x00007ffe17fc7344 (KERNEL32) 
-0x00007ffe18a626b1 (ntdll) RtlUserThreadStart
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9384] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2625191531 [EditorId] 2625191531 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2CE7J8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
+Player connection [9384] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2625191531 [EditorId] 2625191531 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2CE7J8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 80.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Unlime/Documents/GitHub/Ants-Station/Ants Station/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 5GB (ID=0x1c04)
+    Vendor:   NVIDIA
+    VRAM:     5022 MB
+d3d11: failed to create 2D texture id=11 width=4 height=4 mips=1 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=11 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 2D texture id=12 width=4 height=4 mips=1 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=12 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 2D texture id=13 width=4 height=4 mips=1 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=13 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 2D texture id=14 width=16 height=16 mips=1 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=14 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 2D texture id=15 width=4 height=4 mips=3 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=15 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 2D texture id=16 width=4 height=4 mips=1 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=16 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 2D texture id=17 width=4 height=4 mips=1 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=17 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 2D texture id=18 width=256 height=2 mips=1 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=18 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 2D texture id=19 width=64 height=64 mips=1 dxgifmt=65 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=19 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 2D texture id=20 width=1024 height=1 mips=1 dxgifmt=56 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=20 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create Cube texture id=21 width=1 height=1 mips=1 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create Cube texture shader resource view id=21 [D3D error was 80070057]
+failed to create cubemap
+d3d11: failed to create 2D texture id=22 width=16 height=16 mips=1 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=22 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+d3d11: failed to create 3D texture id=23 s=1x1x1 mips=1 d3dfmt=28 [8007000e]
+d3d11: failed to create 3D texture view id=23 [80070057]
+failed to create 3D texture
+d3d11: failed to create 2DArray texture id=24 s=1x1x1 mips=1 d3dfmt=28 [8007000e]
+d3d11: failed to create 2DArray texture view id=24 [80070057]
+failed to create 2DArray texture
+d3d11: failed to create cubemap array texture id=25 s=1x1x1 mips=1 d3dfmt=28 [8007000e]
+d3d11: failed to create CubemapArray texture view id=25 [80070057]
+failed to create CubemapArray texture
+d3d11: failed to create Cube texture id=26 width=1 height=1 mips=1 dxgifmt=28 [D3D error was 8007000e]
+d3d11: failed to create Cube texture shader resource view id=26 [D3D error was 80070057]
+failed to create cubemap
+d3d11: failed to create 2D texture id=27 width=4 height=4 mips=1 dxgifmt=65 [D3D error was 8007000e]
+d3d11: failed to create 2D texture shader resource view id=27 [D3D error was 80070057]
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+received signal from system: SIGSEGV
+Obtained 0 stack frames
+
+Crash!!!
+  ERROR: Error while initializing dbghelp.dll, GetLastError: 'Операция успешно завершена.' (Address: 0000000000000000)
+
+========== OUTPUTTING STACK TRACE ==================
+
+  ERROR: Error while initializing dbghelp.dll, GetLastError: 'Операция успешно завершена.' (Address: 0000000000000000)
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/Unlime/AppData/Local/Temp/Unity/Editor/Crashes
