@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gamedesigner\\Documents\\GitHub\\Ants-Station\\Ants Station\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5818E8-820F-4F28-37E6-7608183E4076}|Assembly-CSharp.csproj|c:\\users\\gamedesigner\\documents\\github\\ants-station\\ants station\\assets\\scripts\\logic\\sceneswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5818E8-820F-4F28-37E6-7608183E4076}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\logic\\sceneswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5818E8-820F-4F28-37E6-7608183E4076}|Assembly-CSharp.csproj|c:\\users\\gamedesigner\\documents\\github\\ants-station\\ants station\\assets\\scripts\\resources\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5818E8-820F-4F28-37E6-7608183E4076}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resources\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F5818E8-820F-4F28-37E6-7608183E4076}|Assembly-CSharp.csproj|C:\\Users\\Gamedesigner\\Documents\\GitHub\\Ants-Station\\Ants Station\\assets\\scripts\\ant\\ant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5818E8-820F-4F28-37E6-7608183E4076}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ant\\ant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unlime\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Viewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unlime\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\AntsColony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SceneSwitcher.cs",
+              "DocumentMoniker": "C:\\Users\\Gamedesigner\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Logic\\SceneSwitcher.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Logic\\SceneSwitcher.cs",
+              "ToolTip": "C:\\Users\\Gamedesigner\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Logic\\SceneSwitcher.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Logic\\SceneSwitcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:04:00.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resource.cs",
+              "DocumentMoniker": "C:\\Users\\Gamedesigner\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Resources\\Resource.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Resources\\Resource.cs",
+              "ToolTip": "C:\\Users\\Gamedesigner\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Resources\\Resource.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Resources\\Resource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:03:57.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ant.cs",
+              "DocumentMoniker": "C:\\Users\\Gamedesigner\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Ant\\Ant.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ant\\Ant.cs",
+              "ToolTip": "C:\\Users\\Gamedesigner\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Ant\\Ant.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ant\\Ant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-03-15T16:03:57.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Viewer.cs",
+              "DocumentMoniker": "C:\\Users\\Unlime\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Viewer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Unlime\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Viewer.cs",
+              "ToolTip": "C:\\Users\\Unlime\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Viewer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Unlime\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\Viewer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T10:14:58.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AntsColony.cs",
+              "DocumentMoniker": "C:\\Users\\Unlime\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\AntsColony.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Unlime\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\AntsColony.cs",
+              "ToolTip": "C:\\Users\\Unlime\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\AntsColony.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Unlime\\Documents\\GitHub\\Ants-Station\\Ants Station\\Assets\\Scripts\\AntsColony.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T10:14:58.525Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
